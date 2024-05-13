@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: monica-test-repo
-  title: Monica test repo
-  description: some test description
+  name: test-title
+  title: Test title
+  description: test description
   annotations:
-    github.com/project-slug: bcgov/mlg-test-repo-1
+    github.com/project-slug: bcgov-public/mlg-test-repo-1
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
-    developer.gov.bc.ca/source_template: default/docs-template
+    developer.gov.bc.ca/source_template: default/transfer-repo
 spec:
-  type: documentation
-  lifecycle: experimental
-  owner: group:bcgov/developer-experience
+  type: library
+  lifecycle: production
+  owner: group:bcgov-public/developer-experience
